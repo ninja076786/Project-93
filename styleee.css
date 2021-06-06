@@ -1,7 +1,26 @@
 .classe_for_h1{
-    color: red;font-family: 'Nothing You Could Do', cursive;;
+    color: red;font-family: 'Nothing You Could Do', cursive;
 }
-#booo_u_are_dead{
+.booo_u_are_dead{
     background-color: green;
     text-align: center
+}
+#logouti_buton
+{
+	font-size: 20px; float: right;
+    margin-right: 70px;
+}
+.logindiv{
+    margin-left: 650px;
+    margin-top: 50px;
+}
+.room_name{
+    width:700px;
+    cursor:text;
+	font-size:20px; 
+    margin-left: 90px;
+}
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
 }
