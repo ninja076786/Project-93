@@ -1,5 +1,34 @@
 <html>
 <head>
-    
+    <title>HawkChat</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="styleee.css">
+<script src="kwitter_room.js"></script>
+<script src="main.js"></script>
 </head>
+<body class="booo_u_are_dead">
+    <button id="logouti_buton" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+	<h1 class="classe_for_h1">	
+		HawkChat	
+		<sup>
+	<img src="m22.png"  width=200px; height=200px;>
+	</sup>
+</h1>
+<h3 id="name_here"></h3>
+<br>
+<br>
+<center>
+<h2>Add A Room Or Join A Room 👇🏻</h2>
+<input class="form-control room_name" placeholder="Please Input A New Room Name Or A Trending Room Name." >
+<button id="button_1" class="btn btn-success" onclick="addRoom()">Add Room</button>&nbsp; <button id="button_2" class="btn btn-success" onclick="gotoroom()">Go To The Trending Room</button>
+<div id="output"></div>
+</center>
+</body>
 </html>
