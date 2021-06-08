@@ -24,3 +24,12 @@
 {
 	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
 }
+#apidoochida
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+    margin-left:170px;
+}
+.input_div_message
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);padding-left: 50px; padding-right: 50px;
+}
