@@ -10,7 +10,6 @@ var firebaseConfig = {
     appId: "1:731956554305:web:ad1879207c8574b057b4c0"
   };
   firebase.initializeApp(firebaseConfig);
-
 function logout(){
     window.location="index.html";
 }
