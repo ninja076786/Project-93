@@ -1,5 +1,5 @@
 function goto(){
-    inputi_____name=document.getElementById("inputi_name").value;
-   localStorage.setItem("inputi_____name",inputi_____name);
+    user_name=document.getElementById("inputi_name").value;
+   localStorage.setItem("user_name",user_name);
    window.location="kwitter_room.html";
 }
