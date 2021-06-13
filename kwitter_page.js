@@ -1,12 +1,13 @@
 var firebaseConfig = {
-      apiKey: "AIzaSyDNeLHeDMj82-Z0qYZDkp_qwh3kZeXhY6U",
-      authDomain: "adv-93-kwitter-chat-app-part-1.firebaseapp.com",
-      databaseURL: "https://adv-93-kwitter-chat-app-part-1-default-rtdb.firebaseio.com",
-      projectId: "adv-93-kwitter-chat-app-part-1",
-      storageBucket: "adv-93-kwitter-chat-app-part-1.appspot.com",
-      messagingSenderId: "127777931954",
-      appId: "1:127777931954:web:c30ea8ebe5fc7e07233fab"
-    };
+    apiKey: "AIzaSyAYQmNV_v5zLPCB7MDvK6h-w_NvMv5RXWg",
+    authDomain: "project-93-kwitter-revamp.firebaseapp.com",
+    databaseURL: "https://project-93-kwitter-revamp-default-rtdb.firebaseio.com",
+    projectId: "project-93-kwitter-revamp",
+    storageBucket: "project-93-kwitter-revamp.appspot.com",
+    messagingSenderId: "731956554305",
+    appId: "1:731956554305:web:ad1879207c8574b057b4c0"
+  };
+  firebase.initializeApp(firebaseConfig);
     firebase.initializeApp(firebaseConfig);
     room_name=localStorage.getItem("room_name");
     user_name=localStorage.getItem("user_name")
